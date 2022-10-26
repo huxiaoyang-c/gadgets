@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mmdet_install_hint',
+    name='mmdet-install-hint',
     version='0.0.1',
     author='huxiaoyang',
     author_email='545960442@qq.com',
@@ -10,7 +10,7 @@ setup(
 
     entry_points={
       'console_scripts': [
-          'mmdet_install_hint = mmdet_install_hint.mmdet_install_hint:main'
+          'mmdet-install-hint = mmdet_install_hint.mmdet_install_hint:main'
       ]
     },
 
